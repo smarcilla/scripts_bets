@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+node_modules/
+*.log
+*.tmp
+*.temp
+
+# Data files (optional - uncomment if you don't want to track data)
+# datos/*.csv
+# datos/merged.csv
+# datos/value_bets.csv
+# datos/patterns_output.csv
+# datos/corr_output.csv
+# datos/resultados_thresholds.csv
+
+# Reports (optional - uncomment if you don't want to track reports)
+# *.md
+# report*.md 
