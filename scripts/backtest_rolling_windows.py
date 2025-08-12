@@ -17,9 +17,9 @@ def load_and_filter(path):
     df = pd.read_csv(path)
     df = df[['FTR','B365H','B365D','B365A']].dropna()
     return df[
-        (df['B365H'] >= 2.5) &
-        (df['B365H'] < 3) &
-        (df['B365D'] >= 3.2)
+        (df['B365H'] >= 1.8) &
+        (df['B365H'] <= 3) &
+        (df['B365D'] >= 3.3)
     ].reset_index(drop=True)
 
 def compute_pnls(df, stake=1.0):
